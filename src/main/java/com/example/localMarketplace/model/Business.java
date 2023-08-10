@@ -7,6 +7,7 @@ public class Business {
     private String id;
     private String name;
     private String owner;
+    private String businessType;
     private String addressLineOne;
     private String addressLineTwo;
     private String city;
@@ -42,6 +43,14 @@ public class Business {
 
     public void setOwner(String owner) {
         this.owner = owner;
+    }
+
+    public String getBusinessType() {
+        return businessType;
+    }
+
+    public void setBusinessType(String businessType) {
+        this.businessType = businessType;
     }
 
     public String getAddressLineOne() {

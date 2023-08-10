@@ -6,6 +6,7 @@ public class Organization {
     @Id private String id;
     private String name;
     private String owner;
+    private String organizationType;
     private String addressLineOne;
     private String addressLineTwo;
     private String city;
@@ -41,6 +42,14 @@ public class Organization {
 
     public void setOwner(String owner) {
         this.owner = owner;
+    }
+
+    public String getOrganizationType() {
+        return organizationType;
+    }
+
+    public void setOrganizationType(String organizationType) {
+        this.organizationType = organizationType;
     }
 
     public String getAddressLineOne() {
